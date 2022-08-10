@@ -1,0 +1,290 @@
+/*media querie*/
+@media screen and (min-width:600px){
+    
+    /*estilos del menu*/
+    body{
+        header{
+            nav{
+                div{
+                    a.logonavbar:hover{
+                        background-color: whitesmoke;
+                    }
+                }
+                div{
+                    ul{
+                        li{
+                            a.conciertos:hover{
+                                background-color: whitesmoke;
+                            }
+                        }
+                        li{
+                            a.discografia:hover{
+                                background-color: whitesmoke;
+                            }
+                        }
+                        li{
+                            a.suscribete:hover{
+                                background-color: whitesmoke;
+                            }
+                        }
+                        li{
+                            a.tienda:hover{
+                                background-color: whitesmoke; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            h1.titulo{
+                text-align: left;
+                font-size: 5rem;
+                padding: 120px;
+                margin-left: 7rem; 
+            }
+        }
+        div{
+            img.logoLinkinpark{
+                display: block;
+                display: flex;
+                position: absolute;
+                top: 88px;
+                right: 200px;
+                max-width: 380px;
+                border-radius: 2rem;
+            }
+        }
+        main{
+            div{
+                h2.subtitulo{
+                    font-size: 4rem;
+                }
+            }
+        }
+        div{
+            img.imagenPieDePagina{
+                width: 70%;
+                margin-left: 7rem;
+            }
+        }
+    }
+    /*media querie de tienda*/
+    body{
+        div{
+            h1.tituloDeTienda{
+                font-size: 5rem;
+                margin: 1rem;
+                padding: 2rem;
+                text-align: center;
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+            }
+        }
+        main.productos{
+            display: grid;
+            grid-template-columns: auto auto ;
+            grid-template-rows: minmax(100px, auto) ;
+            grid-template-areas: "producto1 producto2 producto3"
+                                 "producto4 producto5 producto6";
+            justify-content: center;
+              div.producto1{
+                grid-area: producto1;
+                margin: auto;
+                img.imagen1{
+                    width: 10rem;
+                    border-radius: 10px;
+                    margin: 4rem;     
+                }
+              }
+              div.producto2{
+                grid-area: producto2;
+                margin: auto;
+                img.imagen2{
+                    width: 16rem;
+                    border-radius: 10px; 
+                    margin: 4rem;     
+                }
+            }
+             div.producto3{
+                grid-area: producto3;
+                margin: auto; 
+                img.imagen3{
+                    width: 15rem;
+                    border-radius: 10px;   
+                    margin: 4rem;   
+                } 
+             } 
+             div.producto4{
+                grid-area: producto4;
+                margin: auto;
+                img.imagen4{
+                    width: 15rem;
+                    border-radius: 10px;   
+                    margin: 4rem;   
+                }
+             }
+             div.producto5{
+                grid-area: producto5;
+                margin: auto;
+                img.imagen5{
+                    width: 16rem;
+                    border-radius: 10px;   
+                    margin: 4rem;   
+                }
+             }
+             div.producto6{
+                grid-area: producto6;
+                margin: auto;
+                img.imagen6{
+                    width: 14rem;
+                    border-radius: 10px;   
+                    margin: 4rem;   
+                }
+             } 
+        }
+    }
+
+    /*mediaquerie de suscribete*/
+
+    body{
+        div{
+            img.linkinPark{
+                position: absolute;
+                bottom: 55%;
+                right: 180px;
+                width: 20%;
+                border-radius: 3px;
+                display: block;  
+            }
+        }
+        div{
+            h1.tituloSuscribete{
+                text-align: left;
+                font-size: 50px;
+                padding-right: 40%;
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+            }
+        }
+        main{
+            form.formularioSuscribete{
+                text-align: center;
+                font-size: 40px; 
+            }
+        }
+    }
+    /*media querie de conciertos*/
+
+    body{
+        main.video{ 
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        div{
+            img.conciertosImg{
+                display: block;
+            }
+        }
+    }
+
+/*media querie de discografia*/
+
+    body{
+        div{
+            img.integrantesImg{
+                display: block;
+                width: 65%;
+                border-radius: 10px;
+                margin-left: 14.5rem;
+            }
+        }
+        main.mainDiscografia{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows:auto auto auto;
+            grid-template-areas: "hibridUno hibridDos"
+                                 "meteoraUno meteoraDos"
+                                 "minutesUno minutesDos";
+            justify-content: center;
+            div.hibridUno{
+                grid-area: hibridUno;
+                margin: 4rem;
+                img.hibridImg{
+                    width: 25rem;
+                    border-radius: 4px;
+                }
+            }
+            div.hibridDos{
+                grid-area: hibridDos;
+                margin: 4rem;
+                ol.hibridOl{
+                    font-family: 'Anek Malayalam', sans-serif;
+                    font-family: 'Staatliches', cursive;
+                    font-size: 25px;
+                }
+            }
+            div.meteoraUno{
+                grid-area: meteoraUno;
+                margin: 4rem;
+                img.meteoraImg{
+                    width: 25rem;
+                    border-radius: 4px;  
+                }
+            }
+            div.meteoraDos{
+                grid-area: meteoraDos;
+                margin: 4rem;
+                ol.meteoraOl{
+                    font-family: 'Anek Malayalam', sans-serif;
+                    font-family: 'Staatliches', cursive;
+                    font-size: 25px;
+                }
+            }
+            div.minutesUno{
+                grid-area: minutesUno;
+                margin: 4rem;
+                img.minutesImg{
+                    width: 25rem;
+                    border-radius: 4px;
+                }
+            }
+            div.minutesDos{
+                grid-area: minutesDos;
+                margin: 4rem;
+                ol.minutesOl{
+                    font-family: 'Anek Malayalam', sans-serif;
+                    font-family: 'Staatliches', cursive;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

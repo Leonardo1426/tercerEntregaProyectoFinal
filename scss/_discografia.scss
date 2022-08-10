@@ -1,0 +1,86 @@
+/*estilos de discografia*/
+
+body{
+    div{
+        h1.tituloDiscografia{
+            text-align: center;
+            padding: 1rem;
+            margin: 2rem;
+            font-weight: bolder;
+            font-size: 3rem;
+            font-family: 'Anek Malayalam', sans-serif;
+            font-family: 'Staatliches', cursive;
+            text-decoration: underline;
+        }
+    }
+    div{
+        img.integrantesImg{
+            display: none;
+            border-radius: 6px;
+            width: 50%;
+        }
+    }
+    main.mainDiscografia{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:auto ;
+        grid-template-areas: "hibridUno"
+                             "hibridDos"
+                             "meteoraUno"
+                             "meteoraDos"
+                             "minutesUno"
+                             "minutesDos";
+        justify-content: center;
+        div.hibridUno{
+            grid-area: hibridUno;
+            margin: 2rem;
+            img.hibridImg{
+                width: 25rem;
+                border-radius: 4px;
+            }
+        }
+        div.hibridDos{
+            grid-area: hibridDos;
+            margin: 2rem;
+            ol.hibridOl{
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+                font-size: 25px;
+            }
+        }
+        div.meteoraUno{
+            grid-area: meteoraUno;
+            margin: 2rem;
+            img.meteoraImg{
+                width: 25rem;
+                border-radius: 4px;  
+            }
+        }
+        div.meteoraDos{
+            grid-area: meteoraDos;
+            margin: 2rem;
+            ol.meteoraOl{
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+                font-size: 25px;
+            }
+        }
+        div.minutesUno{
+            grid-area: minutesUno;
+            margin: 2rem;
+            img.minutesImg{
+                width: 25rem;
+                border-radius: 4px;
+            }
+        }
+        div.minutesDos{
+            grid-area: minutesDos;
+            margin: 2rem;
+            ol.minutesOl{
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+                font-size: 25px;
+            }
+        }
+    }
+}

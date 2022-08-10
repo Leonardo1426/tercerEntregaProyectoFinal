@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*estilos del index*/
+body{
+    background-color: grey;
+    header{
+        nav{
+            div{
+                div{
+                    ul{
+                        li{
+                            a.conciertos{
+                                font-weight: bolder;
+                                font-size: 1.3rem;
+                            }
+                        }
+                        li{
+                            a.discografia{
+                                font-weight: bolder;
+                                font-size: 1.3rem;
+                            }
+                        }
+                        li{
+                            a.suscribete{
+                                font-weight: bolder;
+                                font-size: 1.3rem;
+                            }
+                        }
+                        li{
+                            a.tienda{
+                                font-weight: bolder;   
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div{
+        h1.titulo{
+            text-align: center;
+            font-family: 'Anek Malayalam', sans-serif;
+            font-family: 'Staatliches', cursive;
+            font-size: 70px;
+            padding: 15px;
+        }
+    }
+    div{
+        img.logoLinkinpark{
+            display: none;
+            top: 56px;
+            right: 200px;
+            max-width: 380px;
+            border-radius: 18px;
+        }
+    }
+    main{
+        div{
+            h2.subtitulo{
+                text-align: center;
+                font-size: 3rem;
+                font-family: 'Anek Malayalam', sans-serif;
+                font-family: 'Staatliches', cursive;
+                font-weight: 500;
+                font-weight: bolder;
+                padding: 2rem;
+                text-decoration: underline;
+            }
+            h3{
+                p{
+                    text-align: justify;
+                    text-align: center;
+                    font-family: 'Anek Malayalam', sans-serif;
+                    font-family: 'Staatliches', cursive;
+                    font-weight: 500;
+                    font-size: 2rem;
+                    color: black;
+                }
+            }
+        }
+    }
+    div{
+        img.imagenPieDePagina{
+            position: relative;
+            width: 25rem;
+            left: 100px;
+            justify-content: center;
+            border-radius: 1.5rem;
+        }
+    }
+    footer{
+        background-color: grey;
+        text-align: end;
+    }
+}

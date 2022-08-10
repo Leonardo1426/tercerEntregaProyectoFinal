@@ -1,0 +1,51 @@
+/*estilos de conciertos*/
+body{
+     h1.fechasConciertos{
+        font-size: 4rem;
+        padding: 1rem;
+        margin: 3rem;
+        text-align: center;
+        font-family: 'Anek Malayalam', sans-serif;
+        font-family: 'Staatliches', cursive;
+        }
+    main.video{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-area:"video1"
+                  "video2"
+                  "video3" ;
+        justify-content: center;
+        div.video1{
+            margin: 2rem;
+        }
+        div.video2{
+            margin: 2rem;
+        }
+        div.video3{
+            margin: 2rem; 
+        }
+    }
+    div{
+        img.conciertosImg{
+            display: none;
+            width: 50%;
+            margin-top: 50px;
+            margin-left: 60px;
+            border-radius: 20px;
+        }
+    }
+    div.linkEnd{
+        margin-left: 7rem;
+        font-family: 'Anek Malayalam', sans-serif;
+        font-family: 'Staatliches', cursive;
+        background-color: grey;
+        font-weight: bold;
+        h2{
+            a{
+                text-decoration: none;
+                color: red; 
+            }
+        }
+    }
+}

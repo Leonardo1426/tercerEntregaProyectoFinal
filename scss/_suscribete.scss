@@ -1,0 +1,63 @@
+/*estilos de suscribete*/
+body{
+    div{
+        img.linkinPark{
+            position: absolute;
+            bottom: 45%;
+            right: 180px;
+            width: 20%;
+            border-radius: 3px;
+            display: none;
+        }
+    }
+    div{
+        h1.tituloSuscribete{
+            text-align: center;
+            margin: auto;
+            padding: 3rem;
+            font-size: 3rem;
+            font-family: 'Anek Malayalam', sans-serif;
+            font-family: 'Staatliches', cursive;
+        }
+    }
+    main{
+        form.formularioSuscribete{
+            text-align: center;
+            font-size: 2rem;
+            fieldset{
+                legend{
+                    h2.suscribete2{
+                        font-weight: bolder;
+                        font-size: 3.5rem; 
+                    }
+                }
+                h3{
+                    div{
+                        label.form1{
+                            font-weight: bolder;
+                        }
+                    }
+                    div{
+                        label.form2{
+                            font-weight: bolder;  
+                        }
+                    }
+                    div{
+                        label.form3{
+                            font-weight: bolder;
+                        }
+                    }
+                    div{
+                        imput.botonOk{
+                            width: 80px;
+                        }
+                        imput.botonReset{
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

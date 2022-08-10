@@ -1,0 +1,419 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+/*estilos del index*/
+body {
+  background-color: grey; }
+  body header nav div div ul li a.conciertos {
+    font-weight: bolder;
+    font-size: 1.3rem; }
+  body header nav div div ul li a.discografia {
+    font-weight: bolder;
+    font-size: 1.3rem; }
+  body header nav div div ul li a.suscribete {
+    font-weight: bolder;
+    font-size: 1.3rem; }
+  body header nav div div ul li a.tienda {
+    font-weight: bolder;
+    font-size: 1.3rem; }
+  body div h1.titulo {
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+    padding: 15px; }
+  body div img.logoLinkinpark {
+    display: none;
+    top: 56px;
+    right: 200px;
+    max-width: 380px;
+    border-radius: 18px; }
+  body main div h2.subtitulo {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-weight: 500;
+    font-weight: bolder;
+    padding: 2rem;
+    text-decoration: underline; }
+  body main div h3 p {
+    text-align: justify;
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    color: black; }
+  body div img.imagenPieDePagina {
+    position: relative;
+    width: 25rem;
+    left: 100px;
+    justify-content: center;
+    border-radius: 1.5rem; }
+  body footer {
+    background-color: grey;
+    text-align: end; }
+
+/*estilos de tienda*/
+body div h1.tituloDeTienda {
+  font-size: 5rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive; }
+
+body main.productos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: minmax(100px, auto);
+  grid-template-areas: "producto1 producto2" "producto3 producto4" "producto5 producto6";
+  justify-content: center; }
+  body main.productos div.producto1 {
+    grid-area: producto1;
+    margin: auto; }
+    body main.productos div.producto1 img.imagen1 {
+      width: 10rem;
+      border-radius: 10px; }
+  body main.productos div.producto2 {
+    grid-area: producto2;
+    margin: auto; }
+    body main.productos div.producto2 img.imagen2 {
+      width: 16rem;
+      border-radius: 10px; }
+  body main.productos div.producto3 {
+    grid-area: producto3;
+    margin: auto; }
+    body main.productos div.producto3 img.imagen3 {
+      width: 15rem;
+      border-radius: 10px; }
+  body main.productos div.producto4 {
+    grid-area: producto4;
+    margin: auto; }
+    body main.productos div.producto4 img.imagen4 {
+      width: 15rem;
+      border-radius: 10px; }
+  body main.productos div.producto5 {
+    grid-area: producto5;
+    margin: auto; }
+    body main.productos div.producto5 img.imagen5 {
+      width: 16rem;
+      border-radius: 10px; }
+  body main.productos div.producto6 {
+    grid-area: producto6;
+    margin: auto; }
+    body main.productos div.producto6 img.imagen6 {
+      width: 14rem;
+      border-radius: 10px; }
+
+body div h2.sobreProductos {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive;
+  font-weight: bolder;
+  color: black;
+  background-color: grey;
+  padding: 50px;
+  text-decoration: underline; }
+
+/*estilos de suscribete*/
+body div img.linkinPark {
+  position: absolute;
+  bottom: 45%;
+  right: 180px;
+  width: 20%;
+  border-radius: 3px;
+  display: none; }
+
+body div h1.tituloSuscribete {
+  text-align: center;
+  margin: auto;
+  padding: 3rem;
+  font-size: 3rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive; }
+
+body main form.formularioSuscribete {
+  text-align: center;
+  font-size: 2rem; }
+  body main form.formularioSuscribete fieldset legend h2.suscribete2 {
+    font-weight: bolder;
+    font-size: 3.5rem; }
+  body main form.formularioSuscribete fieldset h3 div label.form1 {
+    font-weight: bolder; }
+  body main form.formularioSuscribete fieldset h3 div label.form2 {
+    font-weight: bolder; }
+  body main form.formularioSuscribete fieldset h3 div label.form3 {
+    font-weight: bolder; }
+  body main form.formularioSuscribete fieldset h3 div imput.botonOk {
+    width: 80px; }
+  body main form.formularioSuscribete fieldset h3 div imput.botonReset {
+    width: 80px; }
+
+/*estilos de conciertos*/
+body h1.fechasConciertos {
+  font-size: 4rem;
+  padding: 1rem;
+  margin: 3rem;
+  text-align: center;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive; }
+
+body main.video {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-area: "video1" "video2" "video3";
+  justify-content: center; }
+  body main.video div.video1 {
+    margin: 2rem; }
+  body main.video div.video2 {
+    margin: 2rem; }
+  body main.video div.video3 {
+    margin: 2rem; }
+
+body div img.conciertosImg {
+  display: none;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 60px;
+  border-radius: 20px; }
+
+body div.linkEnd {
+  margin-left: 7rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive;
+  background-color: grey;
+  font-weight: bold; }
+  body div.linkEnd h2 a {
+    text-decoration: none;
+    color: red; }
+
+/*estilos de discografia*/
+body div h1.tituloDiscografia {
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Staatliches', cursive;
+  text-decoration: underline; }
+
+body div img.integrantesImg {
+  display: none;
+  border-radius: 6px;
+  width: 50%; }
+
+body main.mainDiscografia {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "hibridUno" "hibridDos" "meteoraUno" "meteoraDos" "minutesUno" "minutesDos";
+  justify-content: center; }
+  body main.mainDiscografia div.hibridUno {
+    grid-area: hibridUno;
+    margin: 2rem; }
+    body main.mainDiscografia div.hibridUno img.hibridImg {
+      width: 25rem;
+      border-radius: 4px; }
+  body main.mainDiscografia div.hibridDos {
+    grid-area: hibridDos;
+    margin: 2rem; }
+    body main.mainDiscografia div.hibridDos ol.hibridOl {
+      font-family: 'Anek Malayalam', sans-serif;
+      font-family: 'Staatliches', cursive;
+      font-size: 25px; }
+  body main.mainDiscografia div.meteoraUno {
+    grid-area: meteoraUno;
+    margin: 2rem; }
+    body main.mainDiscografia div.meteoraUno img.meteoraImg {
+      width: 25rem;
+      border-radius: 4px; }
+  body main.mainDiscografia div.meteoraDos {
+    grid-area: meteoraDos;
+    margin: 2rem; }
+    body main.mainDiscografia div.meteoraDos ol.meteoraOl {
+      font-family: 'Anek Malayalam', sans-serif;
+      font-family: 'Staatliches', cursive;
+      font-size: 25px; }
+  body main.mainDiscografia div.minutesUno {
+    grid-area: minutesUno;
+    margin: 2rem; }
+    body main.mainDiscografia div.minutesUno img.minutesImg {
+      width: 25rem;
+      border-radius: 4px; }
+  body main.mainDiscografia div.minutesDos {
+    grid-area: minutesDos;
+    margin: 2rem; }
+    body main.mainDiscografia div.minutesDos ol.minutesOl {
+      font-family: 'Anek Malayalam', sans-serif;
+      font-family: 'Staatliches', cursive;
+      font-size: 25px; }
+
+/*media querie*/
+@media screen and (min-width: 600px) {
+  /*estilos del menu*/
+  body header nav div a.logonavbar:hover {
+    background-color: whitesmoke; }
+  body header nav div ul li a.conciertos:hover {
+    background-color: whitesmoke; }
+  body header nav div ul li a.discografia:hover {
+    background-color: whitesmoke; }
+  body header nav div ul li a.suscribete:hover {
+    background-color: whitesmoke; }
+  body header nav div ul li a.tienda:hover {
+    background-color: whitesmoke; }
+  body div h1.titulo {
+    text-align: left;
+    font-size: 5rem;
+    padding: 120px;
+    margin-left: 7rem; }
+  body div img.logoLinkinpark {
+    display: block;
+    display: flex;
+    position: absolute;
+    top: 88px;
+    right: 200px;
+    max-width: 380px;
+    border-radius: 2rem; }
+  body main div h2.subtitulo {
+    font-size: 4rem; }
+  body div img.imagenPieDePagina {
+    width: 70%;
+    margin-left: 7rem; }
+  /*media querie de tienda*/
+  body div h1.tituloDeTienda {
+    font-size: 5rem;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Staatliches', cursive; }
+  body main.productos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-areas: "producto1 producto2 producto3" "producto4 producto5 producto6";
+    justify-content: center; }
+    body main.productos div.producto1 {
+      grid-area: producto1;
+      margin: auto; }
+      body main.productos div.producto1 img.imagen1 {
+        width: 10rem;
+        border-radius: 10px;
+        margin: 4rem; }
+    body main.productos div.producto2 {
+      grid-area: producto2;
+      margin: auto; }
+      body main.productos div.producto2 img.imagen2 {
+        width: 16rem;
+        border-radius: 10px;
+        margin: 4rem; }
+    body main.productos div.producto3 {
+      grid-area: producto3;
+      margin: auto; }
+      body main.productos div.producto3 img.imagen3 {
+        width: 15rem;
+        border-radius: 10px;
+        margin: 4rem; }
+    body main.productos div.producto4 {
+      grid-area: producto4;
+      margin: auto; }
+      body main.productos div.producto4 img.imagen4 {
+        width: 15rem;
+        border-radius: 10px;
+        margin: 4rem; }
+    body main.productos div.producto5 {
+      grid-area: producto5;
+      margin: auto; }
+      body main.productos div.producto5 img.imagen5 {
+        width: 16rem;
+        border-radius: 10px;
+        margin: 4rem; }
+    body main.productos div.producto6 {
+      grid-area: producto6;
+      margin: auto; }
+      body main.productos div.producto6 img.imagen6 {
+        width: 14rem;
+        border-radius: 10px;
+        margin: 4rem; }
+  /*mediaquerie de suscribete*/
+  body div img.linkinPark {
+    position: absolute;
+    bottom: 55%;
+    right: 180px;
+    width: 20%;
+    border-radius: 3px;
+    display: block; }
+  body div h1.tituloSuscribete {
+    text-align: left;
+    font-size: 50px;
+    padding-right: 40%;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Staatliches', cursive; }
+  body main form.formularioSuscribete {
+    text-align: center;
+    font-size: 40px; }
+  /*media querie de conciertos*/
+  body main.video {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  body div img.conciertosImg {
+    display: block; }
+  /*media querie de discografia*/
+  body div img.integrantesImg {
+    display: block;
+    width: 65%;
+    border-radius: 10px;
+    margin-left: 14.5rem; }
+  body main.mainDiscografia {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "hibridUno hibridDos" "meteoraUno meteoraDos" "minutesUno minutesDos";
+    justify-content: center; }
+    body main.mainDiscografia div.hibridUno {
+      grid-area: hibridUno;
+      margin: 4rem; }
+      body main.mainDiscografia div.hibridUno img.hibridImg {
+        width: 25rem;
+        border-radius: 4px; }
+    body main.mainDiscografia div.hibridDos {
+      grid-area: hibridDos;
+      margin: 4rem; }
+      body main.mainDiscografia div.hibridDos ol.hibridOl {
+        font-family: 'Anek Malayalam', sans-serif;
+        font-family: 'Staatliches', cursive;
+        font-size: 25px; }
+    body main.mainDiscografia div.meteoraUno {
+      grid-area: meteoraUno;
+      margin: 4rem; }
+      body main.mainDiscografia div.meteoraUno img.meteoraImg {
+        width: 25rem;
+        border-radius: 4px; }
+    body main.mainDiscografia div.meteoraDos {
+      grid-area: meteoraDos;
+      margin: 4rem; }
+      body main.mainDiscografia div.meteoraDos ol.meteoraOl {
+        font-family: 'Anek Malayalam', sans-serif;
+        font-family: 'Staatliches', cursive;
+        font-size: 25px; }
+    body main.mainDiscografia div.minutesUno {
+      grid-area: minutesUno;
+      margin: 4rem; }
+      body main.mainDiscografia div.minutesUno img.minutesImg {
+        width: 25rem;
+        border-radius: 4px; }
+    body main.mainDiscografia div.minutesDos {
+      grid-area: minutesDos;
+      margin: 4rem; }
+      body main.mainDiscografia div.minutesDos ol.minutesOl {
+        font-family: 'Anek Malayalam', sans-serif;
+        font-family: 'Staatliches', cursive;
+        font-size: 25px; } }

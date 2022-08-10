@@ -1,0 +1,84 @@
+/*estilos de tienda*/
+
+body{
+    div{
+        h1.tituloDeTienda{
+            font-size: 5rem;
+            margin: 2rem;
+            padding: 0.5rem;
+            text-align: center;
+            font-family: 'Anek Malayalam', sans-serif;
+            font-family: 'Staatliches', cursive;
+        }
+    }
+    main.productos{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: minmax(100px, auto) ;
+        grid-template-areas: "producto1 producto2"
+                             "producto3 producto4"
+                             "producto5 producto6";
+        justify-content: center;
+          div.producto1{
+            grid-area: producto1;
+            margin: auto;
+            img.imagen1{
+                width: 10rem;
+                border-radius: 10px;   
+            }
+          }
+          div.producto2{
+            grid-area: producto2;
+            margin: auto;
+            img.imagen2{
+                width: 16rem;
+                border-radius: 10px;    
+            }
+        }
+         div.producto3{
+            grid-area: producto3;
+            margin: auto; 
+            img.imagen3{
+                width: 15rem;
+                border-radius: 10px;   
+            } 
+         } 
+         div.producto4{
+            grid-area: producto4;
+            margin: auto;
+            img.imagen4{
+                width: 15rem;
+                border-radius: 10px;   
+            }
+         }
+         div.producto5{
+            grid-area: producto5;
+            margin: auto;
+            img.imagen5{
+                width: 16rem;
+                border-radius: 10px;    
+            }
+         }
+         div.producto6{
+            grid-area: producto6;
+            margin: auto;
+            img.imagen6{
+                width: 14rem;
+                border-radius: 10px;   
+            }
+         } 
+    }
+    div{
+        h2.sobreProductos{
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Anek Malayalam', sans-serif;
+            font-family: 'Staatliches', cursive;
+            font-weight: bolder;
+            color: black;
+            background-color: grey;
+            padding: 50px;
+            text-decoration: underline;
+        }
+    }
+}
